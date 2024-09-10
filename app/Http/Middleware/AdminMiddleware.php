@@ -16,6 +16,6 @@ class AdminMiddleware
         }
 
         // If not admin, redirect to login or some other page
-        return redirect('/login');
+        return redirect()->back();
     }
 }
